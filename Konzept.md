@@ -1,1 +1,0 @@
-Eine CNC Steuerung für die MPCNC und Estlcam, die Einsteigern eine kostengünstige, auf die Maschine (MPCNC) und Software (Estlcam) zugeschnittene Steuerung anbietet, die mehr Funktionen als vergleichbare Steuerungen (z. B. das GRBL 0.8 "CNC Shield V3") beinhaltet und zusätzlich eine Erweiterungsoption für genauere, leistungsfähigere Schrittmotortreiber bereitstellt.
