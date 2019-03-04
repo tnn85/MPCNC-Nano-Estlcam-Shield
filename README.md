@@ -17,18 +17,20 @@ Eine CNC Steuerung für die MPCNC und Estlcam, die Einsteigern eine kostengünst
 # Technische Anforderungen:
 
 * Unterstützt Estlcam Version 11
+* Arduino Nano Support (Original oder Klon)
 * Zweilagige Platine
 * Nur THT-Bauteile (kein SMD-Löten erforderlich)
-* Schraubklemmen oder Stiftleisten fürr Anschluss externer Komponenten
-* Betrieb mit 12 - 36V -> Spannungsregler 5V + 12V erforderlich
-* Verpolungsschutz der Versorgung 
-* Steckplätze für Pololu Schrittmotortreibermodule DRV8825 + A4988 bzw. Trinamic SilentStepStick TMC2100 
-* Serienschaltung von X- und Y-Achsen über Jumper
+* Schraubklemmen oder Stiftleisten für Anschluss externer Komponenten
+* Betrieb mit 12-36V
+* Konfiguration über Jumper
+* Verpolungsschutz Versorgungsanschluss 
+* Steckplätze für Pololu Schrittmotortreibermodule DRV8825 + A4988 bzw. Trinamic SilentStepStick TMC2100. Mikrostepping über Jumper einstellbar
+* Serienschaltung von zwei Schrittmotoren für X- und Y-Achsen. Einzelner Motor über Jumper auch im Einzelbetrieb möglich.
 * Anschlussmöglichkeit für Bluetoothmodul (Übertragung von Estlcam über virtuelle serielle Schnittstelle) -> Rücksprache mit Christian Knüll von Estlcam erforderlich.
-* Lüfteranschluss 12V (keine Regelung über Temperatur, Spannungsregler 12V erforderlich ) 
+* Lüfteranschluss 12V 
 * Individuelle Erkennung der linken+rechten Endstopps (2x X-Achse, 2x Y-Achse, 1x Z-Achse) über 5/8 Eingängen möglich
-* 2 Ausgänge für Relais, SSR, (Open Collector)
-* 8 galvanisch getrennte Eingänge
+* 2 Ausgänge für Relais/SSR/etc mit 5V/12V/Open Collector. Ausgänge können über Estlcam angesteuert werden.
+* 7(8) galvanisch getrennte Eingänge (für Eingang 6 muss die Diode auf dem Arduino entfernt werden)
 * Spindel ON/OFF (galvanisch getrennt) +  Drehzahl (PWM / 0-5V / 0-10V) Ausgänge
 * 2 analoge Eingänge Drehzahl + Vorschubanpassung
 * Testpunkte für Fehlersuche
@@ -47,12 +49,13 @@ Eine CNC Steuerung für die MPCNC und Estlcam, die Einsteigern eine kostengünst
 # Ordnerstruktur:
 
 * KiCad-Projektdatei
-* Schematic(Ordner für Schaltplan)
-* PCB Layout (Ordner für Platinenlayout)
-* Firmware (Ordner für Firmware für Mikrocontroller, falls Mikrocontroller enthalten)
+* Schematic
+* PCB Layout
+* Firmware (Ordner für Firmware für Mikrocontroller)
 * Enclosure (Ordner für Gehäuse-CAD-Dateien, STL-Dateien, Stecker)
-* Docs (Ordner für Anleitung, Verkabelungsbeispiele, Technisches Datenblatt, etc)
+* Docs (Ordner für Anleitung, Berechnungen, Verkabelungsbeispiele, Technisches Datenblatt, etc)
 * Parts (Ordner für Datenblätter, Bill of Materials, Lieferanten, etc)
+* Libraries (Ordner für projektspezifische Bauteilsymbole und Footprints)
 * Readme 
 * License
 

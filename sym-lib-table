@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MPCNC_Shield_Symbols)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MPCNC_Shield_Symbols.lib)(options "")(descr ""))
+)

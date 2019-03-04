@@ -36,26 +36,6 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x02_Female
-#
-DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x03_Female
 #
 DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
@@ -76,6 +56,29 @@ P 2 1 1 6 -50 100 -20 100 N
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -105,6 +108,115 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x06_Male
+#
+DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Male" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+X Pin_6 6 200 -300 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Screw_Terminal_01x03
+#
+DEF Connector_Screw_Terminal_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_CP_Small
 #
 DEF Device_CP_Small C 0 10 N N 1 F N
@@ -122,6 +234,24 @@ P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
 X ~ 1 0 100 73 D 50 50 1 1 P
 X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -291,6 +421,30 @@ X ~ 9 300 -100 100 L 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
+# MCU_Microchip_ATtiny_ATtiny45-20PU
+#
+DEF MCU_Microchip_ATtiny_ATtiny45-20PU U 0 20 Y Y 1 F N
+F0 "U" -500 550 50 H V L BNN
+F1 "MCU_Microchip_ATtiny_ATtiny45-20PU" 100 -550 50 H V L TNN
+F2 "Package_DIP:DIP-8_W7.62mm" 0 0 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS ATtiny25-20PU ATtiny45V-10PU ATtiny45-20PU ATtiny85V-10PU ATtiny85-20PU
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -500 -500 500 500 0 1 10 f
+X ~RESET~/PB5 1 600 -200 100 L 50 50 1 1 T
+X XTAL1/PB3 2 600 0 100 L 50 50 1 1 T
+X XTAL2/PB4 3 600 -100 100 L 50 50 1 1 T
+X GND 4 0 -600 100 U 50 50 1 1 W
+X AREF/PB0 5 600 300 100 L 50 50 1 1 T
+X PB1 6 600 200 100 L 50 50 1 1 T
+X PB2 7 600 100 100 L 50 50 1 1 T
+X VCC 8 0 600 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # MCU_Module_Arduino_Nano_v3.x
 #
 DEF MCU_Module_Arduino_Nano_v3.x A 0 40 Y Y 1 F N
@@ -334,6 +488,38 @@ X D3 6 -500 300 100 R 50 50 1 1 B
 X D4 7 -500 200 100 R 50 50 1 1 B
 X D5 8 -500 100 100 R 50 50 1 1 B
 X D6 9 -500 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MPCNC_Shield_Symbols_LM2596_Step_Down_Module
+#
+DEF MPCNC_Shield_Symbols_LM2596_Step_Down_Module A 0 20 Y Y 1 F N
+F0 "A" 0 550 50 H V C CNN
+F1 "MPCNC_Shield_Symbols_LM2596_Step_Down_Module" 0 450 50 H V C CNN
+F2 "" 0 -850 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ VSON*1EP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -400 400 400 -100 0 1 10 f
+X Vin+ 1 -500 300 100 R 50 50 1 1 W
+X Vin- 2 -500 0 100 R 50 50 1 1 W
+X Vout+ 3 500 300 100 L 50 50 1 1 w
+X Vout- 4 500 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Mechanical_Heatsink
+#
+DEF Mechanical_Heatsink HS 0 40 Y Y 1 F N
+F0 "HS" 0 200 50 H V C CNN
+F1 "Mechanical_Heatsink" 0 -50 50 H V C CNN
+F2 "" 12 0 50 H I C CNN
+F3 "" 12 0 50 H I C CNN
+DRAW
+P 10 0 1 10 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
+P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 112 150 112 0 -38 0 f
 ENDDRAW
 ENDDEF
 #
@@ -405,6 +591,21 @@ X COM 9 400 400 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -420,6 +621,22 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# power_+VDC
+#
+DEF power_+VDC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "power_+VDC" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 125 75 0 1 10 N
+P 2 0 1 20 -45 125 45 125 N
+P 2 0 1 0 0 0 0 50 N
+P 2 0 1 20 0 80 0 170 N
+X +VDC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -430,6 +647,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

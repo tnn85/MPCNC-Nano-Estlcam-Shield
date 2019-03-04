@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MPCNC_Shield_Footprints)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/MPCNC_Shield_Footprints.pretty)(options "")(descr ""))
+)
