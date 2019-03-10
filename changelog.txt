@@ -1,0 +1,42 @@
+- Version 1.2 of MPCNC Nano Estlcam Shield   
+   PCB schematic changes:
+    + Power LEDs (5mm LED) added(5V and VMot[formerly VDD])
+    + 3,3V connector added
+    + Output Enabled LEDs added (3 x 3mm LED + 1k resistor for OUT1,2,3), Pulls down ouput signal on startup 
+    # Replaced powerflag "VDD" with "VMot" (new custom symbol)
+    + Added net names for Microstepping jumper
+    # Signal "Analog_0_5V" now connected to "LM358 +"-Pin net (after instead of before LP-filter)
+    # Replaced servo connector symbol (Conn_01x03_Female to Conn_01x03_Male)
+    # Mirrored Microstepping and FLT jumper (Pin 1:5V, Pin 2:Signal)
+    # Changed net names ("Ex"-> "INx", "Ax" -> "OUTx") 
+   PCB layout changes:
+    # Silk screen text input/output description corrected ("Feedrate" and "E5")
+    # Changed silk screen text language to English ("Ex"-> "INx", "Ax" -> "OUTx") 
+    # Moved traces and parts for schematic changes and increased margin
+    # Added silk screen text for some parts (Arduino Nano, LM2596 step down module, Driver modules, Microstepping Jumper, Fan, 0-10V Adjustment Poti and LEDs)
+    # Revised LM2596 module footprint
+    # Replaced RV1 Trimmer/Potentiometer Footprint (Potentiometer_Bourns_3296Y_Vertical -> Potentiometer_Bourns_3296W_Vertical). Footprint (2 Pads) of Potentiometer_Bourns_3296Y_Vertical is still on PCB. -> It is possible to mount either potentiometer.
+    # Changed TerminalBlocks footprint and pin pitch (5.08mm -> 5.00mm)
+   Library:
+    + Added power flag "VMot"
+    # Renamed "DCDC_LM2596_Step_Down_Module" to "LM2596_Step_Down_Module"
+    + Added modified footprints from KiCAD standard library for some components (Arduino Nano, Terminal blocks, Pololu driver breakout board, Bourns 3296W potentiomter, Heatsink for L7805) (added 3D models to footprint. However, 3D models are not published in repository for licensing reasons)
+-----------------------------------------------------------------------------
+
+- Version 1.1 of MPCNC Nano Estlcam Shield
+   PCB schematic changes:
+    #  Symbol value removed (default symbol value for BOM creation)
+    + Added field value "Funktion" to all symbols for part description
+    # Symbol reference annotation changed
+    + 12-36V power supply capability (with LM2596 Step Down Module)
+    + Support for Triac Servo (with ATtiny µC)
+     - Removed Output A4 (PWM)
+    + Serial stepper motor connection (2 Stepper in series) for X- and Y- Axis possible
+    + Added Heatsink for LM7805 5V voltage regulator
+
+   PCB layout changes:
+    # Complete PCB layout change
+    +PCB layout intended for silk screen on PCB board edges
+
+- New project folder structure
+- Added custom libraries (Footprint and Symbols)
