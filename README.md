@@ -24,9 +24,8 @@ Eine CNC Steuerung für die MPCNC und Estlcam, die Einsteigern eine kostengünst
 * Betrieb mit 12-36V
 * Konfiguration über Jumper
 * Verpolungsschutz Versorgungsanschluss 
-* Steckplätze für Pololu Schrittmotortreibermodule DRV8825 + A4988 bzw. Trinamic SilentStepStick TMC2100. Mikrostepping über Jumper einstellbar
+* Steckplätze für Pololu Schrittmotortreibermodule DRV8825 + A4988. Mikrostepping über Jumper einstellbar
 * Serienschaltung von zwei Schrittmotoren für X- und Y-Achsen. Einzelner Motor über Jumper auch im Einzelbetrieb möglich.
-* Anschlussmöglichkeit für Bluetoothmodul (Übertragung von Estlcam über virtuelle serielle Schnittstelle) -> Rücksprache mit Christian Knüll von Estlcam erforderlich.
 * Lüfteranschluss 12V 
 * Individuelle Erkennung der linken+rechten Endstopps (2x X-Achse, 2x Y-Achse, 1x Z-Achse) über 5/8 Eingängen möglich
 * 2 Ausgänge für Relais/SSR/etc mit 5V/12V/Open Collector. Ausgänge können über Estlcam angesteuert werden.
@@ -37,20 +36,24 @@ Eine CNC Steuerung für die MPCNC und Estlcam, die Einsteigern eine kostengünst
 
 # Optionale Anforderungen:
 
-* Signalisierrung der Eingänge über LED
+
+* Signalisierrung der Eingänge/Ausgänge über LED
+* Erweiterung um Handradsteuerung
 * Drehzahlsteuerung von Spindeln/Fräsmotoren ohne FU
-* Temperaturabhängige Lüfterreglung über PWM
+* Temperaturabhängige Lüfterreglung über PWM mit Temperaturalarm
 * Absaugautomatik mit Nachlaufverzögerung 
 * Auto Square
 * Sicherung für Treiber
-
+* Unterstützung für Trinamic SilentStepStick TMC2100/2130/2208/5160 (Konfiguration über Tristate-Jumper, Seriell, SPI) 
+* Anschlussmöglichkeit für Bluetoothmodul (Übertragung von Estlcam über virtuelle serielle Schnittstelle) -> Rücksprache mit Christian Knüll von Estlcam erforderlich.
 
 
 # Ordnerstruktur:
 
 * KiCad-Projektdatei
-* Schematic
-* PCB Layout
+* Schematic (*.sch)
+* PCB Layout (*.kicad_pcb)
+* Netzliste (*.net)
 * Firmware (Ordner für Firmware für Mikrocontroller)
 * Enclosure (Ordner für Gehäuse-CAD-Dateien, STL-Dateien, Stecker)
 * Docs (Ordner für Anleitung, Berechnungen, Verkabelungsbeispiele, Technisches Datenblatt, etc)
