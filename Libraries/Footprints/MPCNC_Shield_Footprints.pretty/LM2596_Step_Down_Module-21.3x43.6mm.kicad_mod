@@ -1,4 +1,4 @@
-(module LM2596_Step_Down_Module-21.3x43.6mm (layer F.Cu) (tedit 5C832D6E)
+(module LM2596_Step_Down_Module-21.3x43.6mm (layer F.Cu) (tedit 5C86E0B7)
   (descr "LM2596 Step-Down DCDC Module")
   (tags "LM2596 Step-Down")
   (fp_text reference REF** (at 20.7 -2.8) (layer F.SilkS)

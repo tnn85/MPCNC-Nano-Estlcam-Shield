@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "MPCNC Nano Estlcam Shield Schematic"
-Date "2019-03-07"
-Rev "1.2"
+Date "2019-03-11"
+Rev "1.3"
 Comp "T.Nenz"
 Comment1 "Created by:"
 Comment2 ""
@@ -98,7 +98,7 @@ U 1 1 5C6BC2F5
 P 4100 5150
 F 0 "U2" H 4100 5479 50  0000 C CNN
 F 1 "LTV-847" H 4100 5386 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 4950 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 4950 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 5150 50  0001 L CNN
 	1    4100 5150
 	1    0    0    -1  
@@ -109,7 +109,7 @@ U 2 1 5C6BC977
 P 4100 5550
 F 0 "U2" H 4100 5879 50  0000 C CNN
 F 1 "LTV-847" H 4100 5786 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 5350 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 5350 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 5550 50  0001 L CNN
 	2    4100 5550
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 3 1 5C6BCB92
 P 4100 5950
 F 0 "U2" H 4100 6279 50  0000 C CNN
 F 1 "LTV-847" H 4100 6186 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 5750 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 5750 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 5950 50  0001 L CNN
 	3    4100 5950
 	1    0    0    -1  
@@ -131,7 +131,7 @@ U 4 1 5C6BCC33
 P 4100 6350
 F 0 "U2" H 4100 6679 50  0000 C CNN
 F 1 "LTV-847" H 4100 6586 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 6150 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 6150 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 6350 50  0001 L CNN
 	4    4100 6350
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 5C6BCFC7
 P 4100 6850
 F 0 "U3" H 4100 7179 50  0000 C CNN
 F 1 "LTV-847" H 4100 7086 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 6650 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 6650 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 6850 50  0001 L CNN
 	1    4100 6850
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 2 1 5C6BCFCE
 P 4100 7250
 F 0 "U3" H 4100 7579 50  0000 C CNN
 F 1 "LTV-847" H 4100 7486 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 7050 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 7050 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 7250 50  0001 L CNN
 	2    4100 7250
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 3 1 5C6BCFD5
 P 4100 7650
 F 0 "U3" H 4100 7979 50  0000 C CNN
 F 1 "LTV-847" H 4100 7886 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 7450 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 7450 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 7650 50  0001 L CNN
 	3    4100 7650
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 4 1 5C6BCFDC
 P 4100 8050
 F 0 "U3" H 4100 8379 50  0000 C CNN
 F 1 "LTV-847" H 4100 8286 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 7850 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3900 7850 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 4100 8050 50  0001 L CNN
 	4    4100 8050
 	1    0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 5C6E9F64
 P 3700 5050
 F 0 "R5" V 3501 5050 50  0000 C CNN
 F 1 "220" V 3594 5050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5050 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5050 50  0001 C CNN
 F 3 "~" H 3700 5050 50  0001 C CNN
 	1    3700 5050
 	0    -1   1    0   
@@ -207,7 +207,7 @@ U 1 1 5C6EA07D
 P 3700 5450
 F 0 "R6" V 3501 5450 50  0000 C CNN
 F 1 "220" V 3594 5450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5450 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5450 50  0001 C CNN
 F 3 "~" H 3700 5450 50  0001 C CNN
 	1    3700 5450
 	0    -1   1    0   
@@ -218,7 +218,7 @@ U 1 1 5C6EA107
 P 3700 5850
 F 0 "R7" V 3501 5850 50  0000 C CNN
 F 1 "220" V 3594 5850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5850 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 5850 50  0001 C CNN
 F 3 "~" H 3700 5850 50  0001 C CNN
 	1    3700 5850
 	0    -1   1    0   
@@ -229,7 +229,7 @@ U 1 1 5C6EA18E
 P 3700 6250
 F 0 "R8" V 3501 6250 50  0000 C CNN
 F 1 "220" V 3594 6250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 6250 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 6250 50  0001 C CNN
 F 3 "~" H 3700 6250 50  0001 C CNN
 	1    3700 6250
 	0    -1   1    0   
@@ -240,7 +240,7 @@ U 1 1 5C6EA21C
 P 3700 6750
 F 0 "R9" V 3501 6750 50  0000 C CNN
 F 1 "220" V 3594 6750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 6750 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 6750 50  0001 C CNN
 F 3 "~" H 3700 6750 50  0001 C CNN
 	1    3700 6750
 	0    -1   1    0   
@@ -251,7 +251,7 @@ U 1 1 5C6EA39D
 P 3700 7150
 F 0 "R10" V 3501 7150 50  0000 C CNN
 F 1 "220" V 3594 7150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7150 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7150 50  0001 C CNN
 F 3 "~" H 3700 7150 50  0001 C CNN
 	1    3700 7150
 	0    -1   1    0   
@@ -262,7 +262,7 @@ U 1 1 5C6EA421
 P 3700 7550
 F 0 "R11" V 3501 7550 50  0000 C CNN
 F 1 "220" V 3594 7550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7550 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7550 50  0001 C CNN
 F 3 "~" H 3700 7550 50  0001 C CNN
 	1    3700 7550
 	0    -1   1    0   
@@ -273,7 +273,7 @@ U 1 1 5C6EA550
 P 3700 7950
 F 0 "R12" V 3501 7950 50  0000 C CNN
 F 1 "220" V 3594 7950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7950 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3700 7950 50  0001 C CNN
 F 3 "~" H 3700 7950 50  0001 C CNN
 	1    3700 7950
 	0    -1   1    0   
@@ -541,7 +541,7 @@ U 1 1 5C8659ED
 P 6100 2850
 F 0 "U5" H 6100 3520 50  0000 C CNN
 F 1 "ULN2003" H 6100 3427 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 6150 2300 50  0001 L CNN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 6150 2300 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 6200 2650 50  0001 C CNN
 	1    6100 2850
 	0    1    -1   0   
@@ -601,7 +601,7 @@ U 1 1 5CC8753D
 P 3550 4050
 F 0 "U4" H 3550 4379 50  0000 C CNN
 F 1 "LTV-847" H 3550 4286 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 3850 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:DIP-16_W7.62mm" H 3350 3850 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3550 4050 50  0001 L CNN
 	1    3550 4050
 	-1   0    0    -1  
@@ -612,7 +612,7 @@ U 2 1 5CCCFD3E
 P 3450 2800
 F 0 "U1" H 3450 3170 50  0000 C CNN
 F 1 "LM358" H 3450 3077 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3450 2800 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:DIP-8_W7.62mm" H 3450 2800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3450 2800 50  0001 C CNN
 	2    3450 2800
 	-1   0    0    -1  
@@ -623,7 +623,7 @@ U 3 1 5CCF3D02
 P 3550 2800
 F 0 "U1" H 3509 2847 50  0000 L CNN
 F 1 "LM358" H 3509 2754 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3550 2800 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:DIP-8_W7.62mm" H 3550 2800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3550 2800 50  0001 C CNN
 	3    3550 2800
 	1    0    0    -1  
@@ -634,7 +634,7 @@ U 1 1 5CF17CEE
 P 3950 4150
 F 0 "R4" V 3751 4150 50  0000 C CNN
 F 1 "220" V 3844 4150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3950 4150 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3950 4150 50  0001 C CNN
 F 3 "~" H 3950 4150 50  0001 C CNN
 	1    3950 4150
 	0    1    1    0   
@@ -694,7 +694,7 @@ U 1 1 5D00D445
 P 4450 2850
 F 0 "R1" V 4350 2850 50  0000 C CNN
 F 1 "1k" V 4550 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4450 2850 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4450 2850 50  0001 C CNN
 F 3 "~" H 4450 2850 50  0001 C CNN
 	1    4450 2850
 	0    1    1    0   
@@ -705,7 +705,7 @@ U 1 1 5D00DDBF
 P 4250 2950
 F 0 "C1" H 4050 3050 50  0000 L CNN
 F 1 "100µF" H 3950 2950 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4250 2950 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D8.0mm_P3.50mm" H 4250 2950 50  0001 C CNN
 F 3 "~" H 4250 2950 50  0001 C CNN
 	1    4250 2950
 	1    0    0    -1  
@@ -716,7 +716,7 @@ U 1 1 5D089D1D
 P 4100 3400
 F 0 "R2" V 4000 3400 50  0000 C CNN
 F 1 "10k" V 4100 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4100 3400 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4100 3400 50  0001 C CNN
 F 3 "~" H 4100 3400 50  0001 C CNN
 	1    4100 3400
 	0    1    1    0   
@@ -727,7 +727,7 @@ U 1 1 5D089DEB
 P 3250 3400
 F 0 "R3" V 3150 3400 50  0000 C CNN
 F 1 "10k" V 3250 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3250 3400 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3250 3400 50  0001 C CNN
 F 3 "~" H 3250 3400 50  0001 C CNN
 	1    3250 3400
 	0    1    1    0   
@@ -828,7 +828,7 @@ U 1 1 5C6432AD
 P 10000 2450
 F 0 "C2" H 10089 2497 50  0000 L CNN
 F 1 "100µF" H 10089 2404 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10000 2450 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D8.0mm_P3.50mm" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
 	1    10000 2450
 	1    0    0    -1  
@@ -838,8 +838,8 @@ L Device:CP_Small C5
 U 1 1 5D4B2723
 P 11550 3750
 F 0 "C5" H 11639 3797 50  0000 L CNN
-F 1 "1µF" H 11639 3704 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 11550 3750 50  0001 C CNN
+F 1 "0,33µF" H 11639 3704 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 11550 3750 50  0001 C CNN
 F 3 "~" H 11550 3750 50  0001 C CNN
 	1    11550 3750
 	1    0    0    -1  
@@ -855,8 +855,8 @@ L Device:CP_Small C6
 U 1 1 5D50367F
 P 12400 3750
 F 0 "C6" H 12489 3797 50  0000 L CNN
-F 1 "1µF" H 12489 3704 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 12400 3750 50  0001 C CNN
+F 1 "0,1µF" H 12489 3704 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12400 3750 50  0001 C CNN
 F 3 "~" H 12400 3750 50  0001 C CNN
 	1    12400 3750
 	1    0    0    -1  
@@ -917,7 +917,7 @@ U 1 1 5D5E71AE
 P 11200 1350
 F 0 "D2" H 11200 1569 50  0000 C CNN
 F 1 "1N5822" H 11200 1476 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 11200 1175 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:D_DO-201AD_P15.24mm_Horizontal" H 11200 1175 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 11200 1350 50  0001 C CNN
 	1    11200 1350
 	1    0    0    -1  
@@ -928,7 +928,7 @@ U 1 1 5D5E7290
 P 11200 1550
 F 0 "D3" H 11200 1450 50  0000 C CNN
 F 1 "1N5822" H 11200 1350 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 11200 1375 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:D_DO-201AD_P15.24mm_Horizontal" H 11200 1375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 11200 1550 50  0001 C CNN
 	1    11200 1550
 	1    0    0    -1  
@@ -1209,7 +1209,7 @@ U 1 1 5ED915F8
 P 10500 4500
 F 0 "C3" H 10589 4547 50  0000 L CNN
 F 1 "100µF" H 10589 4454 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10500 4500 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D8.0mm_P3.50mm" H 10500 4500 50  0001 C CNN
 F 3 "~" H 10500 4500 50  0001 C CNN
 	1    10500 4500
 	1    0    0    -1  
@@ -1349,7 +1349,7 @@ U 1 1 5F122E71
 P 10900 6350
 F 0 "C4" H 10989 6397 50  0000 L CNN
 F 1 "100µF" H 10989 6304 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10900 6350 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D8.0mm_P3.50mm" H 10900 6350 50  0001 C CNN
 F 3 "~" H 10900 6350 50  0001 C CNN
 	1    10900 6350
 	1    0    0    -1  
@@ -2182,21 +2182,6 @@ F 3 "~" H 13300 2000 50  0001 C CNN
 	1    13300 2000
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR057
-U 1 1 5CBF4450
-P 14400 2250
-F 0 "#PWR057" H 14400 2000 50  0001 C CNN
-F 1 "GND" H 14405 2075 50  0000 C CNN
-F 2 "" H 14400 2250 50  0001 C CNN
-F 3 "" H 14400 2250 50  0001 C CNN
-	1    14400 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14400 2250 14400 1900
-Wire Wire Line
-	14400 1900 14300 1900
 NoConn ~ 11050 3300
 Wire Wire Line
 	11750 1550 11900 1550
@@ -2399,7 +2384,7 @@ U 1 1 5D2C9516
 P 11900 8450
 F 0 "U7" H 11950 9400 50  0000 R CNN
 F 1 "ATtiny45-20PU" H 12150 9300 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 11900 8450 50  0001 C CIN
+F 2 "MPCNC_Shield_Footprints:DIP-8_W7.62mm" H 11900 8450 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 11900 8450 50  0001 C CNN
 F 4 "Triac-Poti-Servo-Control" H 11850 9200 50  0000 C CNN "Funktion"
 	1    11900 8450
@@ -2583,7 +2568,7 @@ U 1 1 5D8EE63A
 P 12900 8750
 F 0 "R13" V 12701 8750 50  0000 C CNN
 F 1 "10k" V 12794 8750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12900 8750 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12900 8750 50  0001 C CNN
 F 3 "~" H 12900 8750 50  0001 C CNN
 	1    12900 8750
 	-1   0    0    -1  
@@ -2658,7 +2643,7 @@ L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5C623F81
 P 6700 6200
 F 0 "A1" H 6600 5100 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 6700 5019 50  0000 C CNN
+F 1 "Arduino Nano" H 6700 5019 50  0000 C CNN
 F 2 "MPCNC_Shield_Footprints:Arduino_Nano" H 6850 5250 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6700 5200 50  0001 C CNN
 	1    6700 6200
@@ -2744,7 +2729,7 @@ U 1 1 5CE48CAF
 P 12850 5100
 F 0 "R14" V 12651 5100 50  0000 C CNN
 F 1 "220" V 12744 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12850 5100 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12850 5100 50  0001 C CNN
 F 3 "~" H 12850 5100 50  0001 C CNN
 	1    12850 5100
 	1    0    0    1   
@@ -2806,7 +2791,7 @@ U 1 1 5CF99AFE
 P 10600 2050
 F 0 "R15" V 10401 2050 50  0000 C CNN
 F 1 "1.8k" V 10494 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10600 2050 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10600 2050 50  0001 C CNN
 F 3 "~" H 10600 2050 50  0001 C CNN
 	1    10600 2050
 	-1   0    0    -1  
@@ -2903,7 +2888,7 @@ U 1 1 5C84BF34
 P 5950 3550
 F 0 "R18" V 5850 3550 50  0000 C CNN
 F 1 "1k" V 5950 3550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3550 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3550 50  0001 C CNN
 F 3 "~" H 5950 3550 50  0001 C CNN
 	1    5950 3550
 	0    -1   1    0   
@@ -2914,7 +2899,7 @@ U 1 1 5C84C584
 P 5950 3700
 F 0 "R17" V 6000 3700 50  0000 C CNN
 F 1 "1k" V 5950 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3700 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3700 50  0001 C CNN
 F 3 "~" H 5950 3700 50  0001 C CNN
 	1    5950 3700
 	0    1    -1   0   
@@ -2925,7 +2910,7 @@ U 1 1 5C84C74C
 P 5950 3850
 F 0 "R16" V 6000 3850 50  0000 C CNN
 F 1 "1k" V 5950 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3850 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 3850 50  0001 C CNN
 F 3 "~" H 5950 3850 50  0001 C CNN
 	1    5950 3850
 	0    1    -1   0   
@@ -3030,4 +3015,48 @@ Wire Wire Line
 	5250 3850 5250 3900
 Wire Wire Line
 	5850 3850 5550 3850
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C8854EB
+P 13800 1000
+F 0 "H2" H 13900 1047 50  0000 L CNN
+F 1 "MountingHole" H 13900 954 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13800 1000 50  0001 C CNN
+F 3 "~" H 13800 1000 50  0001 C CNN
+	1    13800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C885AC7
+P 13800 1200
+F 0 "H3" H 13900 1247 50  0000 L CNN
+F 1 "MountingHole" H 13900 1154 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13800 1200 50  0001 C CNN
+F 3 "~" H 13800 1200 50  0001 C CNN
+	1    13800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C885BC7
+P 13800 1400
+F 0 "H4" H 13900 1447 50  0000 L CNN
+F 1 "MountingHole" H 13900 1354 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13800 1400 50  0001 C CNN
+F 3 "~" H 13800 1400 50  0001 C CNN
+	1    13800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C885CAB
+P 13800 800
+F 0 "H1" H 13900 847 50  0000 L CNN
+F 1 "MountingHole" H 13900 754 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13800 800 50  0001 C CNN
+F 3 "~" H 13800 800 50  0001 C CNN
+	1    13800 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
