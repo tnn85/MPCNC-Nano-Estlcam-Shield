@@ -781,7 +781,7 @@ U 1 1 5D381B0D
 P 12050 3650
 F 0 "U6" H 12050 3895 50  0000 C CNN
 F 1 "L7805" H 12050 3802 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 12075 3500 50  0001 L CIN
+F 2 "MPCNC_Shield_Footprints:TO-220-3_Vertical" H 12075 3500 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 12050 3600 50  0001 C CNN
 	1    12050 3650
 	1    0    0    -1  
@@ -839,7 +839,7 @@ U 1 1 5D4B2723
 P 11550 3750
 F 0 "C5" H 11639 3797 50  0000 L CNN
 F 1 "0,33µF" H 11639 3704 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 11550 3750 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D5.0mm_P2.00mm" H 11550 3750 50  0001 C CNN
 F 3 "~" H 11550 3750 50  0001 C CNN
 	1    11550 3750
 	1    0    0    -1  
@@ -856,7 +856,7 @@ U 1 1 5D50367F
 P 12400 3750
 F 0 "C6" H 12489 3797 50  0000 L CNN
 F 1 "0,1µF" H 12489 3704 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12400 3750 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:CP_Radial_D5.0mm_P2.00mm" H 12400 3750 50  0001 C CNN
 F 3 "~" H 12400 3750 50  0001 C CNN
 	1    12400 3750
 	1    0    0    -1  
@@ -2603,7 +2603,7 @@ U 1 1 5DA6CC02
 P 11150 7950
 F 0 "C7" H 11242 7997 50  0000 L CNN
 F 1 "100n" H 11242 7904 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 11150 7950 50  0001 C CNN
+F 2 "MPCNC_Shield_Footprints:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 11150 7950 50  0001 C CNN
 F 3 "~" H 11150 7950 50  0001 C CNN
 	1    11150 7950
 	1    0    0    -1  
