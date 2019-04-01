@@ -3,23 +3,35 @@
 *.bak
 *.kicad_pcb-bak
 *.bck
+
+
+#Folder
+Order Information/
+Testing/
+Docs/Manual/
+Docs/Trinamic
+Competitor/
+
+# Uncle Phil
+MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.pro
+MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.kicad_pcb
+Libraries/Footprints/MPCNC_Shield_Footprints.pretty/Uncle Phil.kicad_mod
+Libraries/Footprints/UnclePhil.png
+Gerber/V1.3_Uncle_Phil_Special_Edition.zip
+
+#Enclosure
+Enclosure/Animation Enclosure.mp4
+Enclosure/Frontplatte.stl
+Enclosure/Oberschale.stl
+Enclosure/Unterschale.stl
+
+#General Single Files
 Docs/~$Current Consumption Calculation.xlsx
 _autosave-MPCNC Nano Estlcam Shield.kicad_pcb
-Docs/MPCNC Nano Estlcam Shield V1.1 3D Model.jpg
-Docs/MPCNC Nano Estlcam Shield V1.1 3D SneakPeak.jpg
 Docs/Power Supply.md
 Libraries/Footprints/mod_conn_mkds.zip
 Libraries/Footprints/mod_conn_mkds/
 Libraries/Packages3D/
-Order Information/
-Testing/
-Gerber/
-Docs/
-# Uncle Phil
-MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.kicad_pcb
-Libraries/Footprints/MPCNC_Shield_Footprints.pretty/Uncle Phil.kicad_mod
-Libraries/Footprints/UnclePhil.png
-Parts/BOM MPCNC Nano Estlcam Shield 1.csv
 
 
-MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.pro
+

@@ -1,0 +1,39 @@
+ID;Bezeichner;Gehäuse;Stückzahl;Bezeichnung;Anbieter und Referenz;;
+1;U6;TO-220-3_Vertical;1;L7805;;;
+2;C6;CP_Radial_D5.0mm_P2.00mm;1;0,1µF;;;
+3;C5;CP_Radial_D5.0mm_P2.00mm;1;0,33µF;;;
+4;C7;C_Disc_D3.0mm_W1.6mm_P2.50mm;1;100n;;;
+5;A5;LM2596_Step_Down_Module-21.3x43.6mm;1;LM2596_Step_Down_Module;;;
+6;H3,H1,H2,H4;MountingHole_4.3mm_M4_DIN965_Pad;4;MountingHole;;;
+7;R7,R8,R12,R4,R5,R6,R9,R11,R14,R10;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;10;220;;;
+8;C1,C3,C4,C2;CP_Radial_D8.0mm_P3.50mm;4;100µF;;;
+9;U5;DIP-16_W7.62mm;1;ULN2003;;;
+10;U2,U3,U4;DIP-16_W7.62mm;3;LTV-847;;;
+11;U7;DIP-8_W7.62mm;1;ATtiny45-20PU;;;
+12;U1;DIP-8_W7.62mm;1;LM358;;;
+13;D2,D3;D_DO-201AD_P15.24mm_Horizontal;2;1N5822;;;
+14;R2,R13,R3;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;3;10k;;;
+15;R1,R16,R17,R18;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;4;1k;;;
+16;R15;R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;1;1.8k;;;
+17;RV1;Potentiometer_Bourns_3296W_Vertical;1;5k;;;
+18;A1;Arduino_Nano;1;Arduino Nano;;;
+19;A4,A3,A2;Pololu_Breakout-16_15.2x20.3mm;3;Pololu_Breakout_DRV8825;;;
+20;J27,J22,J13,J14,J12,J21,J18,J19,J20,J24,J25,J4,J5,J6,J23,J26;TerminalBlock_RND_205-00013_1x03_P5.00mm_Horizontal;16;Screw_Terminal_01x03;;;
+21;HS1;Heatsink_China_TO220_(22x)15x10mm_1xDrill1.5mm;1;Heatsink 7805;;;
+22;J17,J16,J1;TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal;3;Screw_Terminal_01x02;;;
+23;D7,D6,D5;LED_D5.0mm;3;LED TRANSPARENT;;;
+24;D4;LED_D5.0mm;1;LED RED;;;
+25;D1;LED_D5.0mm;1;LED GREEN;;;
+26;J29;PinHeader_1x02_P2.54mm_Vertical;1;Conn_01x02_Male;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+27;J28;PinHeader_1x03_P2.54mm_Vertical;1;Conn_01x03_Male;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+28;J15;PinHeader_2x03_P2.54mm_Vertical;1;Conn_02x03_Odd_Even;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+29;J3;PinHeader_1x06_P2.54mm_Vertical;1;Conn_01x06_Male;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+30;JP2,JP16,JP17,JP3,JP8,JP10,JP5,JP15,JP11,JP7,JP6,JP9,JP12,JP4,JP1;PinHeader_1x02_P2.54mm_Vertical;15;Jumper_NO_Small;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+31;JP14,JP13;PinHeader_1x03_P2.54mm_Vertical;2;Jumper_3_Open;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+32;J2;Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical;1;Conn_01x03_Male;;;
+33;J8,J7,J11,J10,J9;PinHeader_1x04_P2.54mm_Vertical;5;Conn_01x04_Male;;;Ersetzt durch PinHeader_1x20_P2.54mm_Vertical
+34;A4,A3,A2;PinSocket_1x08_P2.54mm_Vertical;6;Conn_01x08_Female;;;
+35;A1;PinSocket_1x15_P2.54mm_Vertical;2;Conn_01x08_Female;;;
+36;JPxx;Jumper;20;Jumper;;;
+37;Jxx;PinHeader_1x20_P2.54mm_Vertical;4;;;;
+38;HS1;Schraube M3x6mm;1;;;;
