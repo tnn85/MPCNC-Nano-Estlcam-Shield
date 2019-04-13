@@ -68,3 +68,4 @@ Das MPCNC Nano Esltcam Shield stellt eine CNC Steuerungssplatine für die MPCNC 
 
 # Lizenz:
 * Creative Commons CC-BY-SA-NC 4.0 License
+* Created and Copyright by T.Nenz - E-Mail: MPCNCShield(at)outlook.de

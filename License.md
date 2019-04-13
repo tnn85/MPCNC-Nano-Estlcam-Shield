@@ -29,3 +29,5 @@ Modifications must be licensced under the same terms and conditions.
 The MPCNC Nano Estlcam Shield project files (schematic, PCB layout, firmware source code and all other files) are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
 
 If you find an error in the data provided, please help the community and contribute a fix!
+
+Created and Copyright by T.Nenz - E-Mail: MPCNCShield(at)outlook.de
