@@ -9,3 +9,5 @@ Das Projekt ist in der Facebook-Gruppe von Uncle Phil (https://www.facebook.com/
 Die Platine bekommt Ihr bei Till Nenz, das Gehäuse inkl. der FreeCAD und Step-Dateien gibt es hier.
 
 Viel Spaß beim Nachbauen.
+
+Ein Video zu diesem Gehäuse ist in Arbeit und wird auf YT geladen. Sobald es verfügbar ist, werde ich den Link hier einstellen.
