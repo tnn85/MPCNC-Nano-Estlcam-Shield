@@ -11,6 +11,7 @@ Testing/
 Docs/Manual/
 Docs/Trinamic
 Competitor/
+Firmware/
 
 # Uncle Phil
 MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.pro
@@ -27,6 +28,4 @@ Docs/Power Supply.md
 Libraries/Footprints/mod_conn_mkds.zip
 Libraries/Footprints/mod_conn_mkds/
 Libraries/Packages3D/
-
-
-
+report.txt
