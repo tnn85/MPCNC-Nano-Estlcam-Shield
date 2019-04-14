@@ -10,4 +10,5 @@ Die Platine bekommt Ihr auf Email-Anfrage bei **MPCNCShield(at)outlook.de** von 
 
 Viel Spaß beim Nachbauen.
 
-Ein Video zu diesem Gehäuse ist in Arbeit und wird auf YT geladen. Sobald es verfügbar ist, werde ich den Link hier einstellen.
+Hier gibt es ein kleines Assembly Video dazu: https://youtu.be/D2-taHU4rp4
+Das Video ist auch in diesem Repositorium verfügbar.
