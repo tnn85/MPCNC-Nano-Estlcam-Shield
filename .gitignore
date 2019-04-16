@@ -10,10 +10,12 @@ Order Information/
 Testing/
 Docs/Manual/
 Docs/Trinamic
+Docs/3D CAD
 Competitor/
 Firmware/
 
 # Uncle Phil
+UnclePhilSpecialEdition/
 MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.pro
 MPCNC Nano Estlcam Shield_UnclePhilSpecialEdition.kicad_pcb
 Libraries/Footprints/MPCNC_Shield_Footprints.pretty/Uncle Phil.kicad_mod
@@ -22,10 +24,8 @@ Gerber/V1.3_Uncle_Phil_Special_Edition.zip
 
 
 #General Single Files
-Docs/~$Current Consumption Calculation.xlsx
 _autosave-MPCNC Nano Estlcam Shield.kicad_pcb
 Docs/Power Supply.md
 Libraries/Footprints/mod_conn_mkds.zip
-Libraries/Footprints/mod_conn_mkds/
 Libraries/Packages3D/
-report.txt
+

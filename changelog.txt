@@ -1,3 +1,14 @@
+- Version 1.4 of MPCNC Nano Estlcam Shield   
+   PCB schematic changes:
+    # Changed LED colours (D1:red, D4:green, D5-7:Clear/red)
+   PCB layout changes:
+    + Footprints for LEDs added to project footprint library ("MPCNC_Shield_Footprints"). 
+    # Changed footprint of LEDs 
+    # Moved silk screen reference fo L7805 (U6). Reference was hidden by heatsink
+    + Added LED 3D models to footprint. LEDs show correct color for 3D model (green, red, white[clear])
+    # Changed 3D model for potentiometer (KiCAD standard library model now available in latest KiCAD release 5.10)
+    # Changed 3D model for screw terminal blocks (J1; J4-6; J12-14; J16-J17; J18-27)
+
 - Version 1.3 of MPCNC Nano Estlcam Shield   
    PCB schematic changes:
     # Changed electrolytic capacitor values for L7805 (0,33µF + 0,1µF)

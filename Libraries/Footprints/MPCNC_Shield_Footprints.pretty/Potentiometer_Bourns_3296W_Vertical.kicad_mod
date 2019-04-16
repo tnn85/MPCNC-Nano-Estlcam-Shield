@@ -1,4 +1,4 @@
-(module Potentiometer_Bourns_3296W_Vertical (layer F.Cu) (tedit 5C83156A)
+(module Potentiometer_Bourns_3296W_Vertical (layer F.Cu) (tedit 5CB3ED09)
   (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
   (tags "Potentiometer vertical Bourns 3296W")
   (fp_text reference REF** (at -2.54 -3.66) (layer F.SilkS)
@@ -35,10 +35,5 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
-  )
-  (model ${KIPRJMOD}/Libraries/Packages3D/TRIMER_POT.STEP
-    (offset (xyz -5 0 0.35))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
   )
 )

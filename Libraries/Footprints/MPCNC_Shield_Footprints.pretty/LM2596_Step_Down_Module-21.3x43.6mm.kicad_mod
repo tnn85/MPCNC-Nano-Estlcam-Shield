@@ -1,4 +1,4 @@
-(module LM2596_Step_Down_Module-21.3x43.6mm (layer F.Cu) (tedit 5C86E0B7)
+(module LM2596_Step_Down_Module-21.3x43.6mm (layer F.Cu) (tedit 5CB5A3D2)
   (descr "LM2596 Step-Down DCDC Module")
   (tags "LM2596 Step-Down")
   (fp_text reference REF** (at 20.7 -2.8) (layer F.SilkS)
@@ -47,9 +47,9 @@
   (pad 2 thru_hole rect (at 0 17.78) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
   (pad 3 thru_hole rect (at 40 0) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
   (pad 4 thru_hole rect (at 40 17.8) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/Libraries/Packages3D/LM2596 DC-DC Buck Converter Module.stp"
-    (offset (xyz 86.09999999999999 -74.44 -94.75))
-    (scale (xyz 1.08 1 1.11))
-    (rotate (xyz -90 0 0))
+  (model "${KIPRJMOD}/Libraries/Packages3D/LM2596 DC-DC Buck Converter Module 21.3x43.6mm.step"
+    (offset (xyz 0 0 1.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
