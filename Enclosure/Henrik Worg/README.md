@@ -1,1 +1,1 @@
-Till Front.stl passt direkt auf das Gehüse von Daniel.
+Till Front.stl fits directly on Daniels's housing.
