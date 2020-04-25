@@ -1,3 +1,5 @@
+**<<<BITTE BEACHTEN: Die Platine darf ausdrücklich NUR für die private Verwendung hergestellt werden. Der Weiterverkauf sowohl gewerblich als auch privat (darunter fällt auch der der Verkauf als "gebraucht") ist nicht gestattet. D.h. bitte nicht aus ökonomischen Gründen mehrere Platinen bestellen und dann die übrigen Platinen auf Ebay/Ebay Kleinanzeigen/Amazon/Facebook oder anderen Handelsplattformen öffentlich/halböffentlich anbieten! Beachtet die Lizenzbedingungen am Ende dises Dokuments. Danke für dein/euer Verständnis.>>>**  
+
 
 # MPCNC-Nano-Estlcam-Shield
 English: A CNC shield for the MPCNC in conjunction with Estlcam  
@@ -40,7 +42,7 @@ Das MPCNC Nano Esltcam Shield stellt eine CNC Steuerungssplatine für die MPCNC 
 
 # Optionale Anforderungen:
 
-* Erweiterung um Handradsteuerung (vorraussichtlich nicht möglich, da von Estlcam-seitig unterbunden)
+* Erweiterung um Handradsteuerung (vorraussichtlich nicht möglich, da Estlcam-seitig unterbunden)
 * Drehzahlsteuerung von Spindeln/Fräsmotoren ohne FU über µC ATTiny
 * Temperaturabhängige Lüfterreglung über PWM mit Temperaturalarm
 * Absaugautomatik mit Nachlaufverzögerung 
