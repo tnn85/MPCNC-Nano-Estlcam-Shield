@@ -1,5 +1,8 @@
 **<<<BITTE BEACHTEN: Die Platine darf ausdrücklich NUR für die private Verwendung hergestellt werden. Der Weiterverkauf sowohl gewerblich als auch privat (darunter fällt auch der der Verkauf als "gebraucht") ist nicht gestattet. D.h. bitte nicht aus ökonomischen Gründen mehrere Platinen bestellen und dann die übrigen Platinen auf Ebay/Ebay Kleinanzeigen/Amazon/Facebook oder anderen Handelsplattformen öffentlich/halböffentlich anbieten! Beachtet die Lizenzbedingungen am Ende dises Dokuments. Danke für dein/euer Verständnis.>>>**  
 
+Falls Interesse an der Platine besteht und ihr diese nicht selbst fertigen (ätzen/fräsen) wollt oder könnt, bietet der Moderator der FB-Gruppe "Uncle Phil's Werkstatt" die Bausätze (Platine + Bauteile) auf dem folgendem Formular an:
+https://forms.gle/icKBc9JFwztpJZU48  
+Ich habe **nur** ihm gestattet, die Platine anzubieten. Andere Bezugsquellen sind von mir nicht genehmigt.
 
 # MPCNC-Nano-Estlcam-Shield
 English: A CNC shield for the MPCNC in conjunction with Estlcam  
