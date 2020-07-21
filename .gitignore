@@ -3,16 +3,21 @@
 *.bak
 *.kicad_pcb-bak
 *.bck
-
+*.sch-bak
+*-rescue.dcm
+*-rescue.lib
 
 #Folder
 Order Information/
 Testing/
 Docs/Manual/
-Docs/Trinamic
+Docs/Trinamic/
+Docs/VFD Manuals/
 Enclosure/3D model
 Competitor/
-Firmware/
+Firmware/Grbl/
+Parts/Inductive\ Sensor/
+Parts/Stepper\ Driver/
 
 # Uncle Phil
 UnclePhilSpecialEdition/
